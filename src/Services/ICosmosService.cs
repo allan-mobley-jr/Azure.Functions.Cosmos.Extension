@@ -2,9 +2,10 @@
 // Licensed under the MIT License. See License.txt in the project root for license information.
 
 using System.Threading.Tasks;
+using Azure;
 using Azure.Cosmos;
 
-namespace Azure.Functions.Cosmos.Extension
+namespace Mobsites.Azure.Functions.Cosmos.Extension
 {
     /// <summary>
     /// An abstraction layer for communicating with a Cosmos account.

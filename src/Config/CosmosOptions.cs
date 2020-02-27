@@ -4,7 +4,7 @@
 using Azure.Cosmos;
 using Microsoft.Azure.WebJobs.Hosting;
 
-namespace Azure.Functions.Cosmos.Extension
+namespace Mobsites.Azure.Functions.Cosmos.Extension
 {
     public class CosmosOptions : IOptionsFormatter
     {

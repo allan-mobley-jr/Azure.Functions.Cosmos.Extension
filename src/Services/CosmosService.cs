@@ -3,9 +3,10 @@
 
 using System;
 using System.Threading.Tasks;
+using Azure;
 using Azure.Cosmos;
 
-namespace Azure.Functions.Cosmos.Extension
+namespace Mobsites.Azure.Functions.Cosmos.Extension
 {
     internal sealed class CosmosService : ICosmosService, IDisposable
     {

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using Azure.Cosmos;
 using Microsoft.Azure.WebJobs;
 
-namespace Azure.Functions.Cosmos.Extension
+namespace Mobsites.Azure.Functions.Cosmos.Extension
 {
     internal class CosmosEnumerableBuilder<T> : IAsyncConverter<CosmosAttribute, IEnumerable<T>>
         where T : class

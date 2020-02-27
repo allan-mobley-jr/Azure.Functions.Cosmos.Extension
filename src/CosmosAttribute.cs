@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Description;
 
-namespace Azure.Functions.Cosmos.Extension
+namespace Mobsites.Azure.Functions.Cosmos.Extension
 {
     /// <summary>
     /// Attribute used to bind to an Azure Cosmos collection.

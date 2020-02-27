@@ -10,7 +10,7 @@ using Microsoft.Azure.WebJobs.Host.Bindings;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace Azure.Functions.Cosmos.Extension
+namespace Mobsites.Azure.Functions.Cosmos.Extension
 {
     internal class CosmosItemValueBinder<T> : IValueBinder
         where T : class

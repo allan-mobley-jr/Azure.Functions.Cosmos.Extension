@@ -3,7 +3,7 @@
 
 using Microsoft.Azure.WebJobs;
 
-namespace Azure.Functions.Cosmos.Extension
+namespace Mobsites.Azure.Functions.Cosmos.Extension
 {
     internal class CosmosAsyncCollectorBuilder<T> : IConverter<CosmosAttribute, IAsyncCollector<T>>
     {

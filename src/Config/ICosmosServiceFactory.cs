@@ -3,7 +3,7 @@
 
 using Azure.Cosmos;
 
-namespace Azure.Functions.Cosmos.Extension
+namespace Mobsites.Azure.Functions.Cosmos.Extension
 {
     internal interface ICosmosServiceFactory
     {

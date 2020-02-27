@@ -5,7 +5,7 @@ using System;
 using Azure.Cosmos;
 using Microsoft.Azure.WebJobs;
 
-namespace Azure.Functions.Cosmos.Extension
+namespace Mobsites.Azure.Functions.Cosmos.Extension
 {
     internal class CosmosClientBuilder : IConverter<CosmosAttribute, CosmosClient>
     {

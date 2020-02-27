@@ -9,7 +9,7 @@ using Azure.Cosmos;
 using Microsoft.Azure.WebJobs;
 using Newtonsoft.Json.Linq;
 
-namespace Azure.Functions.Cosmos.Extension
+namespace Mobsites.Azure.Functions.Cosmos.Extension
 {
     internal class CosmosAsyncCollector<T> : IAsyncCollector<T>
     {

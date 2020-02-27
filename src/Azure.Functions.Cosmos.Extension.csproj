@@ -3,12 +3,35 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <LangVersion>latest</LangVersion>
+    <SignAssembly>true</SignAssembly>
+    <Company>Mobsites</Company>
+    <Authors>Allan Mobley</Authors>
+    <Copyright>© 2020 Mobsites</Copyright>
+    <Description>An extension for using the latest Azure.Cosmos .Net SDK for Cosmos DB bindings in Azure Functions.</Description>
+    <PackageId>Mobsites.Azure.Functions.Cosmos.Extension</PackageId>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>mobsites-logo.png</PackageIcon>
+    <PackageIconUrl />
+    <PackageReleaseNotes>First preview release.</PackageReleaseNotes>
+    <PackageVersion>1.0.0-preview1</PackageVersion>
+    <PackageTags>azure;functions;serverless;cosmos;db;bindigs</PackageTags>
+    <PackageProjectUrl>https://github.com/Mobsites/Azure.Functions.Cosmos.Extension</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/Mobsites/Azure.Functions.Cosmos.Extension</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Azure.Cosmos" Version="4.0.0-preview3" />
     <PackageReference Include="Microsoft.Azure.WebJobs" Version="3.0.14" />
     <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="assets\mobsites-logo.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>

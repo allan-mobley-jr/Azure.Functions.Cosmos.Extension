@@ -9,7 +9,7 @@ using System.Reflection;
 using Microsoft.Azure.WebJobs.Host.Bindings;
 using Microsoft.Azure.WebJobs.Host.Bindings.Path;
 
-namespace Azure.Functions.Cosmos.Extension
+namespace Mobsites.Azure.Functions.Cosmos.Extension
 {
     internal class CosmosSqlResolutionPolicy : IResolutionPolicy
     {

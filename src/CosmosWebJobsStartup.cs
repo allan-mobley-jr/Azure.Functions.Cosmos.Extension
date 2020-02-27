@@ -3,11 +3,11 @@
 
 using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Hosting;
-using Azure.Functions.Cosmos.Extension;
+using Mobsites.Azure.Functions.Cosmos.Extension;
 
 [assembly: WebJobsStartup(typeof(CosmosWebJobsStartup))]
 
-namespace Azure.Functions.Cosmos.Extension
+namespace Mobsites.Azure.Functions.Cosmos.Extension
 {
     public class CosmosWebJobsStartup : IWebJobsStartup
     {
