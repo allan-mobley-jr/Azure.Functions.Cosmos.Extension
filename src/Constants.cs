@@ -5,6 +5,6 @@ namespace Azure.Functions.Cosmos.Extension
 {
     public static class Constants
     {
-        public const string DefaultConnectionStringName = "CosmosDB";
+        public const string DefaultConnectionStringName = "Cosmos";
     }
 }

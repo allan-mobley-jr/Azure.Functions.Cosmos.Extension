@@ -18,9 +18,6 @@ namespace Azure.Functions.Cosmos.Extension
         /// </summary>
         public ConnectionMode? ConnectionMode { get; set; }
 
-        public string Format()
-        {
-            throw new System.NotImplementedException();
-        }
+        public string Format() => string.Empty;
     }
 }

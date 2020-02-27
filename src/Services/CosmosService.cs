@@ -24,7 +24,7 @@ namespace Azure.Functions.Cosmos.Extension
 
         public CosmosContainer GetContainer(string databaseName, string containerName)
         {
-            return this.client.GetContainer(databaseName, containerName);
+            return client.GetContainer(databaseName, containerName);
         }
 
         public async Task<CosmosDatabase> CreateDatabaseIfNotExistsAsync(

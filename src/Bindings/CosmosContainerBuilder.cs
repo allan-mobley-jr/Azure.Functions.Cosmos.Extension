@@ -28,6 +28,17 @@ namespace Azure.Functions.Cosmos.Extension
                 attribute.ApplicationName,
                 attribute.ApplicationRegion);
 
+            if (attribute.CreateIfNotExists)
+            {
+                var context = new CosmosContext 
+                {
+                    ResolvedAttribute = attribute,
+                    Service = service
+                };
+
+                CosmosUtility.CreateDatabaseAndContainerNameIfNotExistAsync(context).Wait();
+            }
+
             return service.GetContainer(attribute.DatabaseName, attribute.ContainerName);
         }
     }
